@@ -1,0 +1,19 @@
+{
+  "eventStreamService": {
+    "servers": "stream-dev.apps.silver.devops.gov.bc.ca",
+    "websockets": "true",
+    "streamName": "CHEFS",
+    "source": "chefs-dev",
+    "domain": "forms",
+    "consumerUsername": "chefsConsumer",
+    "consumerPassword": "<replace with environment variable>",
+    "durableName": "chefs-demo-warehouse",
+    "encryptionKey": "<replace with environment variable>"
+  },
+  "api": {
+    "key": "<replace with environment variable>"
+  },
+  "server": {
+    "port": "9998"
+  }
+}

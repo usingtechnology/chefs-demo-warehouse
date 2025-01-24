@@ -1,0 +1,19 @@
+{
+  "eventStreamService": {
+    "servers": "EVENTSTREAMSERVICE_SERVERS",
+    "websockets": "EVENTSTREAMSERVICE_WEBSOCKETS",
+    "streamName": "EVENTSTREAMSERVICE_STREAMNAME",
+    "source": "EVENTSTREAMSERVICE_SOURCE",
+    "domain": "EVENTSTREAMSERVICE_DOMAIN",
+    "consumerUsername": "EVENTSTREAMSERVICE_CONSUMERUSERNAME",
+    "consumerPassword": "EVENTSTREAMSERVICE_CONSUMERPASSWORD",
+    "durableName": "EVENTSTREAMSERVICE_DURABLENAME",
+    "encryptionKey": "EVENTSTREAMSERVICE_ENCRYPTIONKEY"
+  },
+  "api": {
+    "key": "API_KEY"
+  },
+  "server": {
+    "port": "SERVER_PORT"
+  }
+}

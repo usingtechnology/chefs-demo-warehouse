@@ -1,0 +1,33 @@
+{
+  "name": "chefs-demo-warehouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.12",
+    "cookie-parser": "^1.4.7",
+    "cryptr": "^6.3.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "falsey": "^1.0.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "nats": "^2.29.1",
+    "nats.ws": "^1.30.1",
+    "node-schedule": "^2.1.1",
+    "pluralize": "^8.0.0",
+    "uuid": "^11.0.5",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

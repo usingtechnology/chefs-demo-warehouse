@@ -1,0 +1,57 @@
+# Editor directories and files
+.DS_Store
+.gradle
+.nyc_output
+.scannerwork
+build
+coverage
+dist
+screenshots
+downloads
+node_modules
+
+# Ignore only top-level package-lock.json
+/package-lock.json
+
+# local env files
+local.*
+local-*.*
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.mp4
+
+# Visual Studio Code -- generally ignore, but allow shared configuration
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/README.md
+
+# temp office files
+~$*
+*.*.bak
+
+# bddstack files
+build
+.settings
+*.log
+.DS_Store
+*.ipr
+*.iml
+*.iws
+.env
+.idea
+.project
